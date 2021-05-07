@@ -1,0 +1,247 @@
+h1 {color: #7D4D3B;
+font-family: "sulphur point";
+}
+p {color: #C57165;
+font-family: "sulphur point";}
+
+a {color: #7D4D3B;
+	font-family: "sulphur point";}
+
+
+.fondoprincipal {background-color: #F4E4D4;}
+.fondocarrito {background-color: #F4E4D4;}
+.fondocrearcuenta {background-color: #F4E4D4;}
+.fondocontacto {background-color: #F4E4D4;}
+.fondorose {background-color: #F4E4D4;}
+.fondopilar {background-color: #F4E4D4;}
+.fondomar {background-color: #F4E4D4;}
+.fondolele {background-color: #F4E4D4;}
+.fondoiniciar {background-color: #F4E4D4;}
+.fondoproductos {background-color: #F4E4D4;}
+.fondoquienesomos {background-color: #F4E4D4;}
+
+.logopadre {margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		border: 3px;
+		display: flex;
+		justify-content: center;
+		align-items: center;}
+
+.logo {width: 200px;
+		height: 200px;}
+
+.header { border-color: #7D4D3B;
+		width: 100%;
+		height: 40px;
+		border-style: solid;
+		border-width: 1px;
+		display: inline-block;
+		background: transparent;}
+
+.textheader {color: #7D4D3B;
+	font-family: "sulphur point";
+	text-align: center;}
+
+.menuderecha {text-align: right;
+				display: block;}
+
+nav a:hover { color: #7D4D3B;
+			background-color: #EBCBBD;
+			transition-property: all;
+			transition-duration: 1s; }
+
+.buscar {color: #7D4D3B;
+		font-family: "sulphur point";}
+
+
+.navegacion {width: 800px;
+			margin: 30px auto;
+			background: #7D4D3B;}
+
+.navegacion ul {list-style: none;}
+
+.menu > li {position: relative;
+			display: inline-block}
+
+.menu > li > a {display: block;
+				padding: 15px 20px;
+				color: #F4E4D4;
+				font-family: "sulphur point";
+				text-decoration: none;
+				}
+
+
+.grilla_layout2 > * {
+	border: 1px solid #7D4D3B; }
+
+.grilla_layout2 {
+			margin-top: 100px;
+			display: grid;
+			grid-template-columns: minmax(auto, 15%) minmax(auto, 15%) minmax(auto, 15%) minmax(auto, 15%) ;
+			grid-template-rows: 250px 250px ; 
+			grid-column-gap: 20px;
+			grid-row-gap: 20px;}
+
+.navegacion1 {width: 800px;
+			margin: 30px auto;
+			background: #7D4D3B;}
+
+.navegacion1 ul {list-style: none;}
+
+.menu1 > li {position: relative;
+			display: inline-block}
+
+.menu1 > li > a {display: block;
+				padding: 15px 20px;
+				color: #F4E4D4;
+				font-family: "sulphur point";
+				text-decoration: none;
+				}
+
+.div {display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #C57165;
+	border: 1px solid #7D4D3B;
+	color: white;}
+
+.div p {margin: 0;}
+	
+.padre_flex {
+	height: 150px;
+	border: 1px solid #7D4D3B;
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;} 
+
+
+
+
+footer {background-color: #7D4D3B;}
+
+.newsletter {text-align: right;}
+
+.footer {text-align: center;
+			color: #F4E4D4;}
+
+
+
+/*/ crear cuenta /*/
+.todo { color: #C57165;
+	font-family: "sulphur point" }
+
+.footercrearcuenta {width: 99%;
+					bottom: 0;
+					 }
+
+
+/*/ iniciar sesion /*/
+.iniciar {color: #C57165;
+font-family: "sulphur point"}
+
+.footeriniciar { width: 99%;
+					bottom: 0;
+					 }
+
+
+/*/ carrito /*/
+
+.footercarrito { width: 99%;
+					bottom: 0;
+					 }
+
+
+/*/ contacto /*/ 
+
+.textcontacto {color: #C57165;
+font-family: "sulphur point"}
+
+.footercontacto { width: 99%;
+					bottom: 0;
+					 }
+
+/*/ quienes somos /*/ 
+
+.fundadoras {transform: scale(0.50);}
+
+.footerquienesomos {width: 99%;
+					bottom: 0;
+					}
+
+
+
+/*/ productos /*/
+html,
+body {margin: 0;
+padding: 0;}
+
+.productos {color: #7D4D3B;
+font-family: "sulphur point"
+}
+
+
+td {color: #C57165;
+font-family: "sulphur point"
+}
+
+a {color: #7D4D3B;
+	font-family: "sulphur point"}
+
+h1 {text-align: center;} 
+
+h4 { color: #7D4D3B;
+font-family: "sulphur point" }
+
+p { color: #7D4D3B;
+	font-family: "sulphur point"
+	margin: 0;}
+
+.grilla_layout > * {
+	border: 1px solid #7D4D3B; }
+
+.grilla_layout {margin-top: 100px;
+			display: grid;
+			grid-template-columns: minmax(auto, 15%) minmax(auto, 15%) minmax(auto, 15%) minmax(auto, 15%) ;
+			grid-template-rows: 250px 250px ; 
+			grid-column-gap: 20px;
+			grid-row-gap: 20px;}
+
+.footerproductos {width: 99%;
+					bottom: 0;
+					}
+
+
+
+.lele {transform: scale(0.75);}
+.mar { transform: scale(0.75);}
+.pilar { transform: scale(0.75);}
+.rose { transform: scale(0.75);}
+.iconocarrito {height: 20px;
+				width: 20px;}
+
+
+@media (max-width: 991px) { 
+p {color: red;}
+a { color: red;}
+
+.padre_botones{ display: grid;
+				grid-template-columns: 100px 10px; }}
+
+
+.contenedor_lele {
+	max-width: 600px !important
+}
+
+.contenedor_mar {
+	max-width: 500px !important
+}
+
+.contenedor_pilar {
+	max-width: 500px !important
+}
+
+.contenedor_rose {
+	max-width: 500px !important
+}
